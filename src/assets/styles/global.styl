@@ -1,0 +1,52 @@
+*{
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+}
+@font-face {
+  font-family: logo;
+  src: url(../fonts/SansForgeticaRegular.otf);
+}
+@font-face {
+  font-family: danielbk;
+  src: url(../fonts/danielbk.ttf);
+}
+@font-face{
+  font-family: miso
+  src:url(../fonts/miso.otf)  
+}
+//滚动条
+::-webkit-scrollbar{  
+    width: 5px;  /*滚动条宽度*/
+    height: 16px;  /*滚动条高度*/
+    cursor pointer
+    background-color: #f9a828
+}  
+::-webkit-scrollbar-track{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 0px;  /*滚动条的背景区域的圆角*/
+    background-color: #ececeb;/*滚动条的背景颜色*/  
+}  
+::-webkit-scrollbar-thumb{  
+    border-radius: 1px;  /*滚动条的圆角*/
+    //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #f9a828;  /*滚动条的背景颜色*/
+}  
+.sub-title{
+  color:   #07617d
+  font-family: miso
+  font-size: 25px
+  letter-spacing: 1px
+  height 30px
+  line-height: 30px
+}
+.mask{
+    position absolute
+    top 0
+    bottom 0
+    left 0
+    right 0
+    z-index 1
+    background rgba(0,0,0,0.6)
+    filter: blur(0px);
+}
